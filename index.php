@@ -1,6 +1,6 @@
 <?php
 // setting cookie
- setcookie("userID", "4");
+// setcookie("userID", "4");
 
 // including classes
 require_once 'application/PageController.php';
