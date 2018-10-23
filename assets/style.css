@@ -1,0 +1,86 @@
+body {
+    margin: 50px;
+}
+
+#follow {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    width: 180px;
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#follow:active {
+    background: rgb(152, 15, 0);
+}
+
+#count-follow {
+    color: white;
+    background: black;
+    padding: 0px 10px 0px 10px;
+    display: block;
+    float: left;
+    height: 30px;
+}
+
+#status-follow {
+    color: white;
+    font-size: 20px;
+}
+
+.left {
+    float: left;
+    width: 300px;
+}
+
+.right {
+    width: 300px;
+    float: left;
+    margin: 50px;
+}
+
+/* follow script */
+.follow {
+    background: orange;
+}
+
+.follow:after {
+    content: 'Follow';
+}
+
+.follow:hover {
+    background: green;
+}
+
+/* loading script*/
+.loading {
+    background: yellow;
+}
+
+.loading:after {
+    content: 'please wait...';
+    color: red;
+    font-size: 15px;
+}
+
+/* following script*/
+.following:hover {
+    background: rgb(232, 95, 76);
+}
+
+.following:hover:after {
+    content: 'Unfollow';
+}
+
+.following:after {
+    content: 'Following';
+}
+
+.following {
+    background: green;
+}
